@@ -138,8 +138,19 @@ body{
     width: 100%;
 }
 .stay_updated_row{
+    width: 100%;
     display: flex;
     gap: 5px;
+    
+}
+.email{
+    height: 100%;
+    padding:8px;
+    border:2px solid #dd6d6d;
+    border-radius: 5px;
+    background-color:#FCEDF0;
+    
+   
 }
 @media (min-width:768px) {
     .navbar{
@@ -195,7 +206,15 @@ body{
     width: 100%;
     font-size: 40px;
 }
+.stay_updated_row{
+    width: 100%;
+    justify-content:center;
+    gap: 20px;
 
+}
+.email{
+    width: 50%;
+}
     
 }
 @media (min-width:1020px){
